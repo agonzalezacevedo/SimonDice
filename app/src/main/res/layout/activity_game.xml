@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#42EFBE"
+    tools:context=".Game">
+
+    <Button
+        android:id="@+id/botonAzul"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="60dp"
+        android:background="#115DCF"
+        android:text="@string/azul"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botonVerde"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="164dp"
+        android:background="#1AC30E"
+        android:text="@string/verde"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botonAmarillo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="284dp"
+        android:background="#F3E92F"
+        android:text="@string/amarillo"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/botonRojo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="284dp"
+        android:background="#E11B1B"
+        android:text="@string/rojo"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
