@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">SimonDice</string>
-    <string name="rojo">rojo</string>
-    <string name="verde">verde</string>
-    <string name="azul">azul</string>
-    <string name="amarillo">amarillo</string>
     <string name="simon_dice">SIMON DICE!</string>
     <string name="empezar">EMPEZAR</string>
+    <string name="yellow">yellow</string>
+    <string name="green">green</string>
+    <string name="reiniciar">REINICIAR</string>
+    <string name="blue">blue</string>
+    <string name="red">red</string>
 </resources>
